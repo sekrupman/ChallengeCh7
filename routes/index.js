@@ -58,7 +58,7 @@ router.get('/dashboard', MainController.getDashboard);
 router.get('/profile/:userId', MainController.getProfile);
 
 //LOGOUT USER
-router.get('/profile/logout', MainController.logoutUser)
+router.get('/logout', MainController.logoutUser)
 
 
 module.exports = router;
